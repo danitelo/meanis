@@ -44,7 +44,7 @@ require('./config/passport')(passport, config)
 var app = express()
 
 //i18next setings
-require('./config/i18next')(app, config)
+//require('./config/i18next')(app, config)
 
 // express settings
 require('./config/express')(app, config, passport)
