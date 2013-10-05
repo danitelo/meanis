@@ -55,13 +55,13 @@ module.exports = function (app, config, passport) {
 
     // connect flash for flash messages
     app.use(flash())
+    
+    // use i18next
+    //app.use(i18n.handle);
 
     // use passport session
     app.use(passport.initialize())
     app.use(passport.session())
-
-    // use i18next
-    app.use(i18n.handle);
 
     // routes should be at the last
     app.use(app.router)
