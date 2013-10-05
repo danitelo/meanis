@@ -15,7 +15,7 @@ io.of('/api').on('connection', function(socket){
 		})
 
 	//responses
-		socket.emit('test/another/event', 'World from Socket.io');
+		socket.emit('test/another/event', 'from Socket.io');
 
 });
 

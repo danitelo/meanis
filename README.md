@@ -83,7 +83,7 @@ If you are using node instead of grunt, it is very similar:
   * [NodeJS Routes](https://github.com/chrisenytc/meanis/blob/master/config/routes.js) - Where we define our REST service routes.
   * [AngularJs Routes](https://github.com/chrisenytc/meanis/blob/master/public/js/config.js) - Where we define our CRUD routes.
   * [The AngularJs Service](https://github.com/chrisenytc/meanis/blob/master/public/js/services/articles.js) - Where we connect to our REST service.
-  * [The Socket.io Service](https://github.com/chrisenytc/meanis/blob/master/public/js/services/articles.js) - Where we connect to our REST service.
+  * [The Socket.io Service](https://github.com/chrisenytc/meanis/blob/master/public/js/services/socket.io.js) - Where we connect to our REST service.
   * [The AngularJs Controller](https://github.com/chrisenytc/meanis/blob/master/public/js/controllers/articles.js) - Where we take care of  our frontend logic.
   * [The AngularJs Views Folder](https://github.com/chrisenytc/meanis/blob/master/public/views/articles) - Where we keep our CRUD views.
 
